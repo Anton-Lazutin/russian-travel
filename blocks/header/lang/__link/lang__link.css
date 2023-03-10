@@ -1,0 +1,14 @@
+.lang__link {
+    margin: 0;
+    padding-right: 18px;
+    color: #e5e5e5;
+    text-decoration: none;
+}
+
+.lang__link:nth-of-type(2) {
+    padding: 0;
+}
+
+.lang__link:hover {
+    text-decoration: underline;
+}
