@@ -1,13 +1,43 @@
 .intro__title {
+  max-width: 690px;
+  text-align: left;
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
-  font-size: 54px;
-  line-height: 58px;
-  /* identical to box height, or 107% */
+}
 
-  width: 690px;
-  height: 58px;
+@media screen and (max-width: 425px) {
+  .intro__title {
+    box-sizing: border-box;
+    padding-right: 38px;
+    margin: 0 16px 40px;
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
 
-  margin: 0;
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .intro__title {
+    margin: 0 16px 40px;
+    max-width: 720px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .intro__title {
+    margin: 0 24px 40px;
+    font-size: 54px;
+    line-height: 58px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro__title {
+    margin: 0 0 40px;
+    font-size: 54px;
+    line-height: 58px;
+  }
 }
