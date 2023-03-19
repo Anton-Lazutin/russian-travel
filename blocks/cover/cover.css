@@ -1,11 +1,6 @@
-.cover {
-  margin: 0 auto;
-  width: 80%;
-  
-  
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-  text-align: center;
+@media screen and (max-width: 768px) {
+  .cover {
+    display: flex;
+    justify-content: center;
+  }
 }
