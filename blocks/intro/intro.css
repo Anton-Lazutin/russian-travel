@@ -1,5 +1,4 @@
 .intro {
-  
   display: flex;
   flex-direction: column;
 }
@@ -13,18 +12,17 @@
 @media screen and (min-width: 768px) {
   .intro {
     margin: 87px auto 0;
-  } 
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .intro {
-      margin: 93px 48px 0;
-    }
+  .intro {
+    margin: 93px 48px 0;
   }
-  
-  @media screen and (min-width: 1280px) {
-    .intro {
-      margin: 92px 148px 0;
-    }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    margin: 92px 148px 0;
   }
-  
+}

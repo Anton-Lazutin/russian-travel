@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 320px) {
   .place {
     margin: 0 0 50px;
     display: flex;
@@ -6,28 +6,22 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
   .place {
     margin: 0 0 73px;
     display: grid;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: 47.5% 52.5%;
     grid-template-rows: repeat(3, auto);
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .place {
     margin: 0 0 80px;
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: repeat(3, auto);
   }
 }
 @media screen and (min-width: 1280px) {
   .place {
     margin: 0 0 80px;
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: repeat(3, auto);
   }
 }
