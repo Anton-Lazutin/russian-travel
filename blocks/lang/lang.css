@@ -1,6 +1,7 @@
 .lang {
   display: flex;
-  align-items: flex-end;
+  
+  padding: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -9,8 +10,3 @@
   }
 }
 
-@media screen and (min-width: 768px) {
-  .lang {
-    padding-bottom: 6px;
-  }
-}

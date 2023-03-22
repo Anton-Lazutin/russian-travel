@@ -1,7 +1,6 @@
 .lang__link {
   margin: 0;
   color: #fff;
-  padding-right: 18px;
   text-decoration: none;
   font-family: "Inter";
   font-style: normal;
@@ -22,10 +21,4 @@
   }
 }
 
-.lang__link:nth-of-type(2) {
-  padding: 0;
-}
 
-.lang__link:hover {
-  text-decoration: underline;
-}
