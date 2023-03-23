@@ -13,14 +13,14 @@
   .footer {
     flex-direction: row;
     justify-content: space-between;
-    margin: 92px 24px 0;
+    margin: 87px 24px 0;
     padding-bottom: 20px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .footer {
-    margin: 80px 45px 0;
+    margin: 84px 45px 0;
   }
 }
 
