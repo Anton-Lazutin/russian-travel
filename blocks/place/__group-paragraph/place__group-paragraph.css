@@ -1,0 +1,19 @@
+@media screen and (min-width: 768px) {
+  .place__group-paragraph {
+    margin: 50px 25px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place__group-paragraph {
+    margin: 0 33px 0;
+    max-width: 456px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place__group-paragraph {
+    max-width: 484px;
+    margin: 0 40px 0;
+  }
+}

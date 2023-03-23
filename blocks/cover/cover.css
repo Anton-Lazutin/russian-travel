@@ -5,6 +5,17 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+  .cover {
+    margin: 90px 0 0;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .cover {
+    margin: 50px 0 0;
+  }
+}
 @media screen and (min-width: 1280px) {
   .cover {
     margin: 92px 48px 0;
